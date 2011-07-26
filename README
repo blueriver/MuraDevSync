@@ -1,6 +1,8 @@
 This is a proof of concept plugin designed to allow devlopers to link installed plugins and themes to external directories.  Each time Mura reloads it copies the latest code from the external directories.</p>
 The mappings are configured in the sync.xml at the root of the plugin.
 
+This plugin requires a Mura core version of 5.4.4589 or higher.
+
 <DevSync>
 <plugins>
 <plugin package="example" external="/complete/path/to/external/directory"/>

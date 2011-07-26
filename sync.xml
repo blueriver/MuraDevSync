@@ -1,8 +1,9 @@
 <DevSync>
 <plugins>
-	<plugin package="Empty" external="/Users/matthewlevine/Sites/cfusion.mura.local/dev/Empty"/>	
+	<!-- IMPORTANT: the packe value is case sensitive --->
+	<!--<plugin package="example" external="/complete/path/to/external/directory"/>-->
 </plugins>	
 <directories>
-	<plugin internal="Empty" external="/Users/matthewlevine/Sites/cfusion.mura.local/dev/Empty"/>	
+	<!--<diretory internal="/includes/default/themes/merced" external="/complete/path/to/external/directory"/>-->	
 </directories>	
 </DevSync>
