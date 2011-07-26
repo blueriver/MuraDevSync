@@ -1,0 +1,8 @@
+<DevSync>
+<plugins>
+	<plugin package="Empty" external="/Users/matthewlevine/Sites/cfusion.mura.local/dev/Empty"/>	
+</plugins>	
+<directories>
+	<plugin internal="Empty" external="/Users/matthewlevine/Sites/cfusion.mura.local/dev/Empty"/>	
+</directories>	
+</DevSync>
