@@ -1,4 +1,4 @@
-This is a proof of concept plugin designed to allow devlopers to link installed plugins and themes to external directories.  Each time Mura reload is copies the latest code from the external directories.</p>
+This is a proof of concept plugin designed to allow devlopers to link installed plugins and themes to external directories.  Each time Mura reloads it copies the latest code from the external directories.</p>
 The mappings are configured in the sync.xml at the root of the plugin.
 
 <DevSync>

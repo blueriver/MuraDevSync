@@ -18,7 +18,7 @@
 <cfsavecontent variable="body">
 <cfoutput>
 <h2>#variables.pluginConfig.getName()#</h2>
-<p>This is a proof of concept plugin designed to allow devlopers to link installed plugins and themes to external directories.  Each time Mura reload is copies the latest code from the external directories.</p>
+<p>This is a proof of concept plugin designed to allow devlopers to link installed plugins and themes to external directories.  Each time Mura reloads it copies the latest code from the external directories.</p>
 <p>The mappings are configured in the sync.xml at the root of the plugin.<p>
 
 <p>#HTMLEditFormat('<DevSync>')#</p>
