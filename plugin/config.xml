@@ -15,18 +15,14 @@
 -->
 <plugin>
 <name>External Development Synchronization</name>
-<package>DevSync</package>
+<package>MuraDevSync</package>
 <directoryFormat>packageOnly</directoryFormat>
-<version>0</version>
-<loadPriority>1</loadPriority>
+<version>0.1</version>
+<loadPriority>5</loadPriority>
 <provider>Blue River</provider>
 <providerURL>http://blueriver.com</providerURL>
-<category>Application</category>
+<category>Dev Tools</category>
 <settings/>
-<eventHandlers>
-	<eventHandler event="onApplicationLoad" component="eventHandler" persist="false"/>
-</eventHandlers>
-
+<eventHandlers/>
 <displayobjects location="global"/>
-
 </plugin>

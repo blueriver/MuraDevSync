@@ -1,9 +1,9 @@
 <DevSync>
 <plugins>
 	<!-- IMPORTANT: the packe value is case sensitive -->
-	<!--<plugin package="example" external="/complete/path/to/external/directory"/>-->
+	<plugin package="package" external="/complete/path/to/external/directory" />
 </plugins>	
 <directories>
-	<!--<diretory internal="/includes/default/themes/merced" external="/complete/path/to/external/directory"/>-->	
+	<!--<diretory internal="/default/includes/default/themes/merced" external="/complete/path/to/external/directory" />-->	
 </directories>	
 </DevSync>

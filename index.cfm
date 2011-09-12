@@ -21,14 +21,14 @@
 <p>This is a proof of concept plugin designed to allow devlopers to link installed plugins and themes to external directories.  Each time Mura reloads it copies the latest code from the external directories.</p>
 <p>The mappings are configured in the sync.xml at the root of the plugin.<p>
 
-<p>#HTMLEditFormat('<DevSync>')#</p>
-<p>#HTMLEditFormat('<plugins>')#</p>
-<p>#HTMLEditFormat('<plugin package="example" external="/complete/path/to/external/directory"/>')#</p>
-<p>#HTMLEditFormat('</plugins>')#</p>
-<p>#HTMLEditFormat('<directories>')#</p>
-<p>#HTMLEditFormat('<diretory internal="/includes/default/themes/merced" external="/complete/path/to/external/directory"/>')#</p>
-<p>#HTMLEditFormat('</directories>')#</p>
-<p>#HTMLEditFormat('</DevSync>')#</p>
+<p>#HTMLEditFormat('<DevSync>')#</br>
+#HTMLEditFormat('<plugins>')#</br>
+#HTMLEditFormat('<plugin package="example" external="/complete/path/to/external/directory"/>')#</br>
+#HTMLEditFormat('</plugins>')#</br>
+#HTMLEditFormat('<directories>')#</br>
+#HTMLEditFormat('<diretory internal="/default/includes/default/themes/merced" external="/complete/path/to/external/directory"/>')#</br>
+#HTMLEditFormat('</directories>')#</br>
+#HTMLEditFormat('</DevSync>')#</p>
 
 </cfoutput>
 </cfsavecontent>
