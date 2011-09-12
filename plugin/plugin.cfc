@@ -46,7 +46,7 @@
 	</cffunction>
 		
 	<cffunction name="addCode" output="false">
-		<cfset var code=chr(10) & chr(13) & "<!--- BeginDevSync ---><cfif isdefined('url.#application.configBean.getAppreloadKey()#')><cfset createObject('component','MuraDevSync.sync').init('#application.configBean.getContext()#')></cfif><!--- EndDevSync --->">
+		<cfset var code=chr(10) & chr(13) & '<!--- BeginDevSync ---><cfif isdefined("url.#application.configBean.getAppreloadKey()#")><cfhttp url="http://#cgi.http_host##application.configBean.getContext()#/plugins/MuraDevSync/sync.cfc?method=doSync"></cfif><!--- EndDevSync --->'>
 		<cfset getBean("fileWriter").appendFile(file=variables.cfapplication, output="#code#", newline=true)>
 	</cffunction>
 	
