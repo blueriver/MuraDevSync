@@ -1,7 +1,8 @@
 <DevSync>
 <plugins>
-	<!-- IMPORTANT: the packe value is case sensitive -->
+	<!-- IMPORTANT: the packe value is case sensitive 
 	<plugin package="package" external="/complete/path/to/external/directory" />
+	-->
 </plugins>	
 <directories>
 	<!--<diretory internal="/default/includes/default/themes/merced" external="/complete/path/to/external/directory" />-->	
