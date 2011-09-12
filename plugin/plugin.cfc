@@ -21,8 +21,7 @@
 		<cfset update()>	
 	</cffunction>
 	
-	<cffunction name="update" output="false">
-		
+	<cffunction name="update" output="false">	
 		<cfset super.update()>	
 		<cfset removeCode()>
 		<cfset addCode()>
@@ -47,7 +46,7 @@
 	</cffunction>
 		
 	<cffunction name="addCode" output="false">
-		<cfset var code=chr(10) & chr(13) & "<!--- BeginDevSync ---><cfif isdefined('url.#application.configBean.getAppreloadKey()#')><cfset createObject('component','MuraDevSync.sync').init()></cfif><!--- EndDevSync --->">
+		<cfset var code=chr(10) & chr(13) & "<!--- BeginDevSync ---><cfif isdefined('url.#application.configBean.getAppreloadKey()#')><cfset createObject('component','MuraDevSync.sync').init('#application.configBean.getContext()#')></cfif><!--- EndDevSync --->">
 		<cfset getBean("fileWriter").appendFile(file=variables.cfapplication, output="#code#", newline=true)>
 	</cffunction>
 	
