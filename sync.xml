@@ -1,6 +1,6 @@
 <DevSync>
 <plugins>
-	<!-- IMPORTANT: the packe value is case sensitive 
+	<!-- IMPORTANT: the package value is case sensitive 
 	<plugin package="package" external="/complete/path/to/external/directory" />
 	-->
 </plugins>	
